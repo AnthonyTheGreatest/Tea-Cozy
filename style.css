@@ -1,3 +1,44 @@
 * {
-    
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+header a {
+    margin: 2px;
+}
+header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+#logo {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+#nav {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+#nav a {
+    margin: 15px;
+}
+.x {
+    height: 70px;
+    color: black;
+}
+main {
+    margin-top: 70px;
+}
+footer {
+    margin-top: 70px;
 }
