@@ -56,7 +56,7 @@ main {
     width: 1200px;
 }
 #month-text {
-    width: 1200px;
+    width: 1000px;
     margin-top: 80px;
 }
 .month-container {
@@ -74,9 +74,45 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 }
+#location {
+    background-image: url(./img-locations-background.webp);
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    align-items: center;
+}
+#location h2 {
+    background-color: transparent;
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 10px;
+}
+#location-elements {
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+.location-container {
+    opacity: 1;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#contact {
+    height: 200px;
+}
 
 /* Footer */
 
 footer {
     margin-top: 50px;
+    margin-left:20px;
+    display: flex;
+    justify-content: flex-start;
 }
