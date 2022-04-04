@@ -43,6 +43,7 @@ main {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #mission {
     background-image: url(./img-mission-background.webp);
@@ -53,6 +54,25 @@ main {
 }
 #mission-text {
     width: 1200px;
+}
+#month-text {
+    width: 1200px;
+    margin-top: 80px;
+}
+.month-container {
+    margin: 20px;
+}
+.month-container img {
+    height: 200px;
+    Width: 300px;
+}
+.month-container h4 {
+    margin-top: 10px;
+}
+#month-elements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* Footer */
